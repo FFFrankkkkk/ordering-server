@@ -8,6 +8,15 @@ public class Product {
     private String content;
     private Integer staticHtml;
     private String url;
+    private String imgUrl;
+
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
+    }
 
     public Integer getProductId() {
         return productId;
