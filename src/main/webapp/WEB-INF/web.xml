@@ -10,6 +10,15 @@
     <servlet-class>servlet.ProductServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
+  <servlet>
+    <description>用户管理</description>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/servlet/UserServlet</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>ProductServlet</servlet-name>
     <url-pattern>/servlet/ProductServlet</url-pattern>
