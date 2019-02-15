@@ -94,6 +94,7 @@ public class ProductDao {
             product.setProductId(databaseDao.getInt("productId"));
             product.setProductName(databaseDao.getString("productName"));
             product.setImgUrl(databaseDao.getString("imgUrl"));
+            product.setContent(databaseDao.getString("content"));
             product.setProductType(databaseDao.getString("productType"));
             product.setPrice(databaseDao.getString("price"));
             product.setUrl(databaseDao.getString("url"));

@@ -15,7 +15,15 @@
     <servlet-name>UserServlet</servlet-name>
     <servlet-class>servlet.UserServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description>订单管理</description>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>servlet.OrderServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/servlet/OrderServlet</url-pattern>
+  </servlet-mapping>  <servlet-mapping>
     <servlet-name>UserServlet</servlet-name>
     <url-pattern>/servlet/UserServlet</url-pattern>
   </servlet-mapping>
