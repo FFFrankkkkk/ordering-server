@@ -24,10 +24,6 @@ public class ProductServlet extends HttpServlet {
         ProductService produtctService=new ProductService();
         Message message=new Message();
         if("showProducts".equals(type)){
-//            String newsTypesString=new String(WebProperties.config.getString("newsTypes"));
-//            System.out.println(newsTypesString);
-//            String[] newsTypes=newsTypesString.split(",");
-            //homePageNewsN：主页上，每类新闻最大条数
             ProductTypesService productTypesService=new ProductTypesService();
             List<ProductType> productTypes=productTypesService.getAll();
             List<String> productTypesName=new ArrayList<String>();
@@ -44,6 +40,12 @@ public class ProductServlet extends HttpServlet {
             Gson gson = new Gson();
             String jsonString= gson.toJson(list);//将对象转换成json格式的字符串
             Tool.returnJsonString(response, jsonString);//返回客户端
+        }else if("addProduct".equals(type)){
+             Product product=new Product();
+             product.setProductName(request.getParameter("productName"));
+             product.setContent(request.getParameter("text"));
+             product.setPrice(request.getParameter("price"));
+             product.setProductType(request.getParameter("type"));
         }
     }
 

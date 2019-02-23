@@ -1,7 +1,13 @@
 package dao;
 
 import bean.Order;
+import bean.ProductType;
+import javafx.collections.ObservableList;
 import org.junit.Test;
+import service.ProductTypesService;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -20,4 +26,23 @@ public class OrderDaoTest {
               e.printStackTrace();
           }
       }
+    @Test
+      public void testgetOrder() {
+        List<Order> orders = new ArrayList<>();
+        try {
+            DatabaseDao databaseDao = new DatabaseDao();
+            OrderDao orderDao = new OrderDao();
+            orderDao.makeConfirm(databaseDao, 148);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+   @Test
+           public void testgetAllProductType(){
+            ProductTypesService productTypesService=new ProductTypesService();
+            List<ProductType> productTypes=productTypesService.getAll();
+            for(ProductType productType:productTypes){
+                System.out.println(productType.getName());
+            }
+        }
 }

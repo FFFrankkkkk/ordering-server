@@ -152,4 +152,12 @@ public class UserDao {
         }
         return null;
     }
+	public String getNameByUserId(Integer userId,DatabaseDao databaseDao) throws Exception{
+		String sql="select name from user where userId='"+userId+"'";
+		databaseDao.query(sql);
+		while (databaseDao.next()) {
+		    return databaseDao.getString("name");
+		}
+		return null;
+	}
 }

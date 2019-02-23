@@ -20,6 +20,15 @@
     <servlet-name>OrderServlet</servlet-name>
     <servlet-class>servlet.OrderServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description>菜品种类管理</description>
+    <servlet-name>productTypeServlet</servlet-name>
+    <servlet-class>servlet.productTypeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productTypeServlet</servlet-name>
+    <url-pattern>/servlet/productTypeServlet</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>OrderServlet</servlet-name>
     <url-pattern>/servlet/OrderServlet</url-pattern>

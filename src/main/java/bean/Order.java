@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 import java.util.List;
 
 public class Order {
+    private String userName;
     private Integer orderId;
     private Integer userId;
     private String productsId;
@@ -11,6 +12,13 @@ public class Order {
     private Timestamp orderTime;
     private String status;
     private String address;
+    public String getUserName() {
+        return userName;
+    }
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     public Integer getOrderId() {
         return orderId;
     }

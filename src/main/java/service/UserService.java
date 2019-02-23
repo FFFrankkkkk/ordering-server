@@ -319,4 +319,18 @@ public class UserService {
         }
         return false;
     }
+	public String getNameByUserId(Integer userId){
+		try {
+			DatabaseDao databaseDao=new DatabaseDao();
+			UserDao userDao=new UserDao();
+			return userDao.getNameByUserId(userId,databaseDao);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
 }
