@@ -1,6 +1,7 @@
 package service;
 
 import bean.ProductType;
+import dao.DatabaseDao;
 import dao.ProductTypeDao;
 
 import java.sql.SQLException;
@@ -21,5 +22,15 @@ public class ProductTypesService {
             e.printStackTrace();
         }
         return productTypes;
+    }
+    public Integer addProductType(ProductType productType){
+        try {
+            DatabaseDao databaseDao=new DatabaseDao();
+            ProductTypeDao productTypeDao=new ProductTypeDao();
+            return productTypeDao.addProductType(productType,databaseDao);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return -1;
     }
 }

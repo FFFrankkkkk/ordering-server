@@ -7,32 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c110f69-ffac-4005-a3f9-90e97bb1fb6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/OrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/OrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductTypesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductTypesService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dao/OrderDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/OrderDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bean/order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean/order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/OrderDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlet/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/OrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ProductTypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ProductTypeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/ProductTypesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ProductTypesService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/servlet/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/ProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/bean/order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/bean/order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/OrderDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/OrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/productTypeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/productTypeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/ProductTypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/ProductTypeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/ProductTypesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/ProductTypesService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/ProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/productTypeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/productTypeServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/dao/OrderDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dao/OrderDaoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -92,59 +87,67 @@
     <session id="-375547978">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="80" />
-          <entry key="jpg" value="1" />
+          <entry key="java" value="87" />
+          <entry key="jpg" value="3" />
           <entry key="jsp" value="1" />
+          <entry key="properties" value="1" />
           <entry key="sql" value="5" />
-          <entry key="xml" value="11" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="80" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="87" />
           <entry key="JSP" value="1" />
+          <entry key="Properties" value="1" />
           <entry key="Scratch" value="5" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3618" />
+          <entry key="cell" value="3" />
+          <entry key="java" value="4829" />
           <entry key="jsp" value="62" />
-          <entry key="sql" value="978" />
+          <entry key="properties" value="26" />
+          <entry key="sql" value="1124" />
           <entry key="xml" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3618" />
+          <entry key="JAVA" value="4829" />
           <entry key="JSP" value="62" />
-          <entry key="Scratch" value="978" />
+          <entry key="Properties" value="26" />
+          <entry key="Scratch" value="1127" />
           <entry key="XML" value="53" />
         </counts>
       </usages-collector>
@@ -156,7 +159,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/41f643b8-8aed-49fe-b77f-30a5c8164e49/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -164,8 +167,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            <state relative-caret-position="198">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -173,8 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="1501">
+              <caret line="83" column="23" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -203,11 +236,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/productDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/tools/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ProductTypesService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/productTypeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/Tool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/filter/CorsFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/filter/CharEncodingFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/User.java" />
@@ -217,7 +247,6 @@
         <option value="$PROJECT_DIR$/src/main/java/tools/Encryption.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/SearchTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/order.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/ServletTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/ServletTool.java" />
@@ -229,9 +258,14 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/OrderDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/orderTypeServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/dao/OrderDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ProductTypesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/41f643b8-8aed-49fe-b77f-30a5c8164e49/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java" />
       </list>
     </option>
@@ -273,8 +307,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="455" />
-    <option name="y" value="45" />
+    <option name="x" value="445" />
+    <option name="y" value="10" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
@@ -287,7 +321,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,14 +352,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ordering" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,29 +375,67 @@
               <item name="ordering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
               <item name="ordering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
               <item name="ordering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
               <item name="ordering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
@@ -397,17 +460,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550928641155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550989505289" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="D:/news" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -430,11 +494,11 @@
       <recent name="dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaproject\ordering\src\main\webapp\WEB-INF" />
       <recent name="D:\ideaproject\ordering\src\main\java\service" />
       <recent name="D:\ideaproject\ordering\target\ordering\WEB-INF\classes" />
       <recent name="D:\ideaproject\ordering\target\classes" />
       <recent name="D:\ideaproject\ordering\src\main\java" />
-      <recent name="D:\ideaproject\ordering\src\main\webapp\upload\images\products" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,6 +525,22 @@
       <option name="PACKAGE_NAME" value="dao" />
       <option name="MAIN_CLASS_NAME" value="dao.OrderDaoTest" />
       <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDaoTest.testAddProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ordering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.OrderDaoTest" />
+      <option name="METHOD_NAME" value="testAddProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -577,9 +657,11 @@
       <item itemvalue="JUnit.OrderDaoTest.Test" />
       <item itemvalue="JUnit.OrderDaoTest.testgetOrder" />
       <item itemvalue="JUnit.OrderDaoTest.testgetAllProductType" />
+      <item itemvalue="JUnit.OrderDaoTest.testAddProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderDaoTest.testAddProduct" />
         <item itemvalue="JUnit.OrderDaoTest.testgetAllProductType" />
         <item itemvalue="JUnit.OrderDaoTest.testgetOrder" />
         <item itemvalue="JUnit.OrderDaoTest.Test" />
@@ -624,20 +706,17 @@
       <workItem from="1550912436920" duration="1361000" />
       <workItem from="1550921738073" duration="1530000" />
       <workItem from="1550928728306" duration="1398000" />
-      <workItem from="1550936665990" duration="1205000" />
+      <workItem from="1550936665990" duration="1402000" />
+      <workItem from="1550967670288" duration="3558000" />
+      <workItem from="1550975097622" duration="2229000" />
+      <workItem from="1550985135816" duration="3116000" />
+      <workItem from="1550989613018" duration="2840000" />
+      <workItem from="1550995107244" duration="3758000" />
+      <workItem from="1551018284215" duration="627000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderDaoTest_Test - 2019.02.18 at 13h 07m 48s.xml">
-      <configuration name="OrderDaoTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoTest_Test - 2019.02.23 at 15h 22m 24s.xml">
-      <configuration name="OrderDaoTest.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoTest_testgetOrder - 2019.02.23 at 15h 22m 51s.xml">
-      <configuration name="OrderDaoTest.testgetOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderDaoTest_testgetOrder - 2019.02.23 at 15h 24m 41s.xml">
       <configuration name="OrderDaoTest.testgetOrder" configurationId="JUnit" />
     </history-entry>
@@ -659,15 +738,24 @@
     <history-entry file="OrderDaoTest_testgetAllProductType - 2019.02.23 at 21h 25m 16s.xml">
       <configuration name="OrderDaoTest.testgetAllProductType" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderDaoTest_testAddProduct - 2019.02.24 at 10h 13m 43s.xml">
+      <configuration name="OrderDaoTest.testAddProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderDaoTest_testAddProduct - 2019.02.24 at 11h 09m 22s.xml">
+      <configuration name="OrderDaoTest.testAddProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderDaoTest_testAddProduct - 2019.02.24 at 11h 10m 30s.xml">
+      <configuration name="OrderDaoTest.testAddProduct" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76493000" />
+    <option name="totallyTimeSpent" value="92818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8212766" visible="true" weight="0.26407507" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8212766" visible="true" weight="0.2707775" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.18699732" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -677,19 +765,19 @@
       <window_info id="Web" order="7" sideWeight="0.17872341" side_tool="true" weight="0.2580429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55886525" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.48652482" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20567375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.66950357" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.52056736" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.20992908" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.38297874" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932975" weight="0.2609929" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -751,15 +839,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/images/products/1000.png-.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -944,80 +1023,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bean/ProductType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/ordering/upload/images/products/1550977355809.jpg" />
+    <entry file="file://$PROJECT_DIR$/target/ordering/upload/images/products/1550985402704.jpg" />
     <entry file="file://$PROJECT_DIR$/src/test/java/dao/OrderDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="316">
+          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductTypesService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/41f643b8-8aed-49fe-b77f-30a5c8164e49/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        <state relative-caret-position="198">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

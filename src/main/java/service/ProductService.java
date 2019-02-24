@@ -4,6 +4,7 @@ import bean.Product;
 import dao.DatabaseDao;
 import dao.ProductDao;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,5 +28,25 @@ public class ProductService {
             return null;
         }
         return productList;
+    }
+    public Integer addProdcut(Product product){
+        try {
+            DatabaseDao databaseDao=new DatabaseDao();
+            ProductDao productDao=new ProductDao();
+            return productDao.addProduct(product,databaseDao);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return -1;
+    }
+    public List<Product> showAllProduct(){
+        try {
+            DatabaseDao databaseDao = new DatabaseDao();
+            ProductDao productDao=new ProductDao();
+            return productDao.getByTypesTop("all",databaseDao);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

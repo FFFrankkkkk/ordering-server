@@ -20,4 +20,8 @@ public class ProductTypeDao {
         }
         return productTypes;
     }
+    public Integer addProductType(ProductType productType,DatabaseDao databaseDao) throws SQLException {
+        String sql="insert into producttype(name) values('"+productType.getName()+"')";
+        return databaseDao.update(sql);
+    }
 }

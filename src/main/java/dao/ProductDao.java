@@ -7,15 +7,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProductDao {
-//    public Integer add(News news,DatabaseDao databaseDao) throws SQLException {
-//        String sql="insert into news(caption,author,newsType,content,newsTime) values("
-//                +"'"+news.getCaption()+"','"
-//                +news.getAuthor()+"','"
-//                +news.getNewsType()+"','"
-//                +news.getContent()+"','"
-//                +news.getNewsTime()+"')";
-//        return databaseDao.update(sql);
-//    }
+    public Integer addProduct(Product product,DatabaseDao databaseDao) throws SQLException {
+        String sql="insert into product(productType,price,productName,content,imgUrl) values("
+                +"'"+product.getProductType()+"','"
+                +product.getPrice()+"','"
+                +product.getProductName()+"','"
+                +product.getContent()+"','"
+                +product.getImgUrl()+"')";
+        return databaseDao.update(sql);
+    }
 //    public List<Integer> articleNumberByMonthInAYear(String year) throws SQLException,Exception{
 //        List<Integer> articleNumberByMonthList=Tool.getListWithLengthInitIntValue(12, 0);
 //        String sql="select count(*) as articleNumber , MONTH(newsTime) as month1 from news where YEAR(newsTime)="+year+"  group by month1 order by  month1";
