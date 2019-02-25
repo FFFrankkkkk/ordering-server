@@ -35,8 +35,7 @@ public class UserDao {
 		return false;
 	}
 	public Integer register(User user, DatabaseDao databaseDao) throws SQLException{
-		user.setHeadIconUrl("\\"+WebProperties.config.getString("projectName")
-				+WebProperties.config.getString("headIconFileDefault"));//默认头像
+		user.setHeadIconUrl("/ordering/upload/images/headIcon/0.jpg");//默认头像
 		String sql="insert into user(type,name,password,salt,email,phone,enable,headIconUrl) values('"+
 				user.getType()+"','"+user.getName()+"','"+
 				user.getPassword()+"','"+

@@ -24,4 +24,16 @@ public class ProductTypeDao {
         String sql="insert into producttype(name) values('"+productType.getName()+"')";
         return databaseDao.update(sql);
     }
+    public Integer deleteProductType(int productTypeId,DatabaseDao databaseDao) throws SQLException {
+        String sql="delete from producttype where productTypeId="+productTypeId;
+        return databaseDao.update(sql);
+    }
+    public String getProductTypeNameById(int productTypeId,DatabaseDao databaseDao) throws SQLException {
+        String sql="select  name from producttype where productTypeId="+productTypeId;
+        databaseDao.query(sql);
+        while(databaseDao.next()){
+            return databaseDao.getString("name");
+        }
+        return  null;
+    }
 }

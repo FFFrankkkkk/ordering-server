@@ -33,4 +33,25 @@ public class ProductTypesService {
         }
         return -1;
     }
+    public Integer deleteProductType(int productTypeId){
+        try {
+            DatabaseDao databaseDao=new DatabaseDao();
+            ProductTypeDao productTypeDao=new ProductTypeDao();
+            return productTypeDao.deleteProductType(productTypeId,databaseDao);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return -1;
+    }
+    public String getProductTypeNameById(int productTypeId){
+        try {
+            DatabaseDao databaseDao=new DatabaseDao();
+            ProductTypeDao productTypeDao=new ProductTypeDao();
+            return productTypeDao.getProductTypeNameById(productTypeId,databaseDao);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 }

@@ -64,5 +64,23 @@ public class OrderDaoTest {
            e.printStackTrace();
        }
    }
+   @Test
+    public void testEditProduct(){
+       Product product=new Product();
+       product.setProductId(61);
+       product.setImgUrl("http://localhost:8080/ordering/upload/images/products/1550986834943.jpg");
+       product.setContent("好吃不贵");
+       product.setPrice("1");
+       product.setProductName("咖啡");
+       product.setProductType("甜品");
+       try {
+           DatabaseDao databaseDao=new DatabaseDao();
+           ProductDao productDao=new ProductDao();
+           productDao.editProduct(product,databaseDao);
+       } catch (Exception e) {
+           e.printStackTrace();
+       }
+
+   }
 
 }

@@ -7,27 +7,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c110f69-ffac-4005-a3f9-90e97bb1fb6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/ImageCheckCodeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductTypesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductTypesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dao/OrderDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/OrderDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ProductDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dao/ProductTypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ProductTypeDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/service/ProductTypesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/ProductTypesService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/servlet/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/UserServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/servlet/productTypeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet/productTypeServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/ProductDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/ProductTypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/dao/ProductTypeDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/ProductTypesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/service/ProductTypesService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/UserServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/productTypeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/classes/servlet/productTypeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ordering/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ordering/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/dao/OrderDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dao/OrderDaoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -87,19 +94,21 @@
     <session id="-375547978">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
@@ -107,48 +116,49 @@
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="87" />
+          <entry key="java" value="108" />
           <entry key="jpg" value="3" />
           <entry key="jsp" value="1" />
           <entry key="properties" value="1" />
           <entry key="sql" value="5" />
-          <entry key="xml" value="12" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="87" />
+          <entry key="JAVA" value="108" />
           <entry key="JSP" value="1" />
           <entry key="Properties" value="1" />
           <entry key="Scratch" value="5" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="3" />
-          <entry key="java" value="4829" />
+          <entry key="java" value="6597" />
           <entry key="jsp" value="62" />
           <entry key="properties" value="26" />
-          <entry key="sql" value="1124" />
-          <entry key="xml" value="53" />
+          <entry key="sql" value="1204" />
+          <entry key="xml" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4829" />
+          <entry key="JAVA" value="6597" />
           <entry key="JSP" value="62" />
           <entry key="Properties" value="26" />
-          <entry key="Scratch" value="1127" />
-          <entry key="XML" value="53" />
+          <entry key="Scratch" value="1207" />
+          <entry key="XML" value="67" />
         </counts>
       </usages-collector>
     </session>
@@ -159,37 +169,34 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/41f643b8-8aed-49fe-b77f-30a5c8164e49/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bean/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="99" column="33" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/Tool.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="72" />
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -197,17 +204,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="608">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1501">
-              <caret line="83" column="23" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="23" />
+            <state relative-caret-position="151">
+              <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -246,27 +262,28 @@
         <option value="$PROJECT_DIR$/src/main/java/service/bean/Databasebackup.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/Encryption.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/SearchTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/order.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/ServletTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/ServletTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/OrderServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/OrderDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/orderTypeServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/dao/OrderDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ProductTypesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/41f643b8-8aed-49fe-b77f-30a5c8164e49/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ProductTypesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/ImageCheckCodeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/UserServlet.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/41f643b8-8aed-49fe-b77f-30a5c8164e49/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/UserDao.java" />
       </list>
     </option>
   </component>
@@ -321,6 +338,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,6 +370,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -375,7 +401,8 @@
               <item name="ordering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
@@ -383,16 +410,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ordering" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
@@ -401,6 +418,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ordering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ordering" type="b2602c69:ProjectViewProjectNode" />
@@ -460,14 +498,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550989505289" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551105244215" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -483,15 +520,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="dao" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tools" />
       <recent name="servlet" />
+      <recent name="tools" />
       <recent name="service" />
       <recent name="bean" />
       <recent name="dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaproject\ordering\src\main\webapp\WEB-INF" />
@@ -541,6 +578,22 @@
       <option name="PACKAGE_NAME" value="dao" />
       <option name="MAIN_CLASS_NAME" value="dao.OrderDaoTest" />
       <option name="METHOD_NAME" value="testAddProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDaoTest.testEditProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ordering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.OrderDaoTest" />
+      <option name="METHOD_NAME" value="testEditProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -658,9 +711,11 @@
       <item itemvalue="JUnit.OrderDaoTest.testgetOrder" />
       <item itemvalue="JUnit.OrderDaoTest.testgetAllProductType" />
       <item itemvalue="JUnit.OrderDaoTest.testAddProduct" />
+      <item itemvalue="JUnit.OrderDaoTest.testEditProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderDaoTest.testEditProduct" />
         <item itemvalue="JUnit.OrderDaoTest.testAddProduct" />
         <item itemvalue="JUnit.OrderDaoTest.testgetAllProductType" />
         <item itemvalue="JUnit.OrderDaoTest.testgetOrder" />
@@ -712,20 +767,18 @@
       <workItem from="1550985135816" duration="3116000" />
       <workItem from="1550989613018" duration="2840000" />
       <workItem from="1550995107244" duration="3758000" />
-      <workItem from="1551018284215" duration="627000" />
+      <workItem from="1551018284215" duration="1422000" />
+      <workItem from="1551020197300" duration="607000" />
+      <workItem from="1551054896768" duration="7929000" />
+      <workItem from="1551070401075" duration="1930000" />
+      <workItem from="1551082451429" duration="2808000" />
+      <workItem from="1551100011205" duration="1978000" />
+      <workItem from="1551102101822" duration="280000" />
+      <workItem from="1551103269261" duration="2346000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderDaoTest_testgetOrder - 2019.02.23 at 15h 24m 41s.xml">
-      <configuration name="OrderDaoTest.testgetOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoTest_testgetOrder - 2019.02.23 at 15h 24m 58s.xml">
-      <configuration name="OrderDaoTest.testgetOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderDaoTest_testgetOrder - 2019.02.23 at 15h 34m 16s.xml">
-      <configuration name="OrderDaoTest.testgetOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderDaoTest_testgetOrder - 2019.02.23 at 16h 39m 50s.xml">
       <configuration name="OrderDaoTest.testgetOrder" configurationId="JUnit" />
     </history-entry>
@@ -747,15 +800,24 @@
     <history-entry file="OrderDaoTest_testAddProduct - 2019.02.24 at 11h 10m 30s.xml">
       <configuration name="OrderDaoTest.testAddProduct" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderDaoTest_testEditProduct - 2019.02.25 at 09h 29m 49s.xml">
+      <configuration name="OrderDaoTest.testEditProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderDaoTest_testEditProduct - 2019.02.25 at 09h 30m 52s.xml">
+      <configuration name="OrderDaoTest.testEditProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderDaoTest_testEditProduct - 2019.02.25 at 09h 34m 21s.xml">
+      <configuration name="OrderDaoTest.testEditProduct" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92818000" />
+    <option name="totallyTimeSpent" value="111491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8212766" visible="true" weight="0.2707775" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8212766" visible="true" weight="0.20442359" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.18699732" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -765,8 +827,8 @@
       <window_info id="Web" order="7" sideWeight="0.17872341" side_tool="true" weight="0.2580429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.48652482" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20567375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.44539008" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47375888" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -777,7 +839,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932975" weight="0.2609929" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49932975" weight="0.28652483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -839,21 +901,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/Servlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -910,13 +957,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/service/bean/ArticleNumberByMonthInAYear.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/service/bean/NewsType.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/service/bean/Databasebackup.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="395" column="25" selection-start-line="395" selection-start-column="25" selection-end-line="395" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bean/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -939,24 +979,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Encryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tools/SearchTool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Tool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="88" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -974,27 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="321" column="33" selection-start-line="321" selection-start-column="18" selection-end-line="321" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="154" column="33" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/OrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -1009,13 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
@@ -1023,54 +1021,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/ProductType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/ordering/upload/images/products/1550977355809.jpg" />
     <entry file="file://$PROJECT_DIR$/target/ordering/upload/images/products/1550985402704.jpg" />
     <entry file="file://$PROJECT_DIR$/src/test/java/dao/OrderDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductTypesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/41f643b8-8aed-49fe-b77f-30a5c8164e49/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        <state relative-caret-position="101">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1081,27 +1037,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="jar://$USER_HOME$/AppData/Local/MyEclipse 2017 CI/binary/com.sun.java.jdk8.win32.x86_64_1.8.0.v112/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="23" />
+        <state relative-caret-position="180">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ProductServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="427">
+          <caret line="182" column="5" lean-forward="true" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductTypesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductTypeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/ProductType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/productTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/ImageCheckCodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="36" column="82" selection-start-line="36" selection-start-column="82" selection-end-line="36" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/41f643b8-8aed-49fe-b77f-30a5c8164e49/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="99" column="33" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="33" />
         </state>
       </provider>
     </entry>

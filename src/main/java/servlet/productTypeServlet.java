@@ -24,9 +24,9 @@ public class productTypeServlet extends HttpServlet {
         String type=request.getParameter("type");
         ProductService produtctService=new ProductService();
         Message message=new Message();
+        ProductTypesService productTypesService=new ProductTypesService();
         PrintWriter out=response.getWriter();
         if("getProductType".equals(type)){
-            ProductTypesService productTypesService=new ProductTypesService();
             List<ProductType> productTypes=productTypesService.getAll();
             Gson gson = new Gson();
             String jsonString= gson.toJson(productTypes);//将对象转换成json格式的字符串
@@ -36,9 +36,13 @@ public class productTypeServlet extends HttpServlet {
             String addProductTypename = new String(request.getParameter("addProductTypename").getBytes("iso-8859-1"), "utf-8");
             productType.setName(addProductTypename);
             System.out.println(productType.getName());
-            ProductTypesService productService=new ProductTypesService();
-            Integer result=productService.addProductType(productType);
+            Integer result=productTypesService.addProductType(productType);
             out.println(result);
+        }else if("deleteProductType".equals(type)){
+            int productTypeId=Integer.valueOf(request.getParameter("productTypeId"));
+            String prodcutTypeName=productTypesService.getProductTypeNameById(productTypeId);
+            int result=productTypesService.deleteProductType(productTypeId);
+            result=produtctService.deleteProductByProductTypeName(prodcutTypeName);
         }
     }
 
